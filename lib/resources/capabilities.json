@@ -62,9 +62,10 @@
         "74": "Unknown",
         "75": "Unknown",
         "82": "Unknown",
+        "96": "Thai2",
         "253": "UTF-8",
         "254": "Unknown",
-        "255": "Unknown"
+        "255": "Thai"
       },
       "vendor": "Generic",
       "model": "Default",
