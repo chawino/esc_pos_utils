@@ -32,7 +32,9 @@ class Generator {
 
   // ************************ Internal helpers ************************
   int _getMaxCharsPerLine(PosFontType? font) {
-    if (_paperSize == PaperSize.mm58) {
+    if (_paperSize == PaperSize.mm40) {
+      return (font == null || font == PosFontType.fontA) ? 16 : 28;
+    } else if (_paperSize == PaperSize.mm58) {
       return (font == null || font == PosFontType.fontA) ? 32 : 42;
     } else {
       return (font == null || font == PosFontType.fontA) ? 48 : 64;
